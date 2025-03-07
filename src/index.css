@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Abril;
+    src: url("../src/assets/fonts/AbrilFatface-Regular.ttf");
+}
+@font-face {
+    font-family: Caesar;
+    src: url("../src//assets/fonts/CaesarDressing-Regular.ttf");
+}
+@font-face {
+    font-family: Inika;
+    src: url("../src//assets/fonts/Inika-Bold.ttf");
+}
+@font-face {
+    font-family: Inria;
+    src: url("../src//assets/fonts/InriaSerif-Bold.ttf");
+}
+@font-face {
+    font-family: Irish;
+    src: url("../src//assets/fonts/IrishGrover-Regular.ttf");
+}
+@font-face {
+    font-family: Grot ;
+    src: url("../src//assets/fonts/DarkerGrotesque-VariableFont_wght.ttf");
+}
+@import "tailwindcss";
+
+@theme{
+    --font-*:initial;
+    --font-abril: Abril, "sans-serif";
+    --font-caesar: Caesar,"sans-serif";
+    --font-inika: Inika,"sans-serif";
+    --font-inria: Inria,"sans-serif";
+    --font-irish: Irish,"sans-serif";
+    --font-grot: Grot,"sans-serif";
+}
