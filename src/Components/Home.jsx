@@ -15,9 +15,9 @@ function Home() {
 
   return (
     
-    <div className="w-full bg-[#336757]">
+    <div className="min-h-screen w-full bg-[#336757]">
 
-      <div id="home" className="h-screen w-full flex items-center justify-center">
+      <div id="home" className="min-h-screen md:h-screen w-full flex items-center justify-center">
         <div className="w-full h-full bg-no-repeat bg-cover bg-center"style={{ backgroundImage: `url(${homebg})` }} >
 
           <div className="flex flex-col md:flex-row justify-between md:ml-28">
@@ -42,10 +42,10 @@ function Home() {
       <button onClick={()=>scrollToSection("home")} className="fixed right-6 bottom-6 p-5 bg-white rounded-full hover:bg-zinc-500 transition duration-300 hover:cursor-pointer ">
         <img src={upArrow} alt="" className="h-7 w-7" />
       </button>
-      <div id="about" className="min-h-screen"><About/></div>
-      <div id="skills" className="min-h-screen pt-60 md:pt-0"><Skills/></div>
-      <div id="projects" className="min-h-screen"><Projects/></div>
-      <div id="contact" className="min-h-h-screen"><Contact/></div>
+      <div id="about" className="min-h-screen w-full"><About/></div>
+      <div id="skills" className="min-h-screen w-full pt-60 sm:pt-68 md:pt-0 "><Skills/></div>
+      <div id="projects" className=" w-full"><Projects/></div>
+      <div id="contact" className="min-h-screen w-full"><Contact/></div>
 
     </div>
   );

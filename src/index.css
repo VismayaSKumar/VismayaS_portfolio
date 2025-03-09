@@ -22,6 +22,10 @@
     font-family: Grot ;
     src: url("../src//assets/fonts/DarkerGrotesque-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: Gugi ;
+    src: url("../src//assets/fonts/Gugi-Regular.ttf");
+}
 @import "tailwindcss";
 
 @theme{
@@ -32,4 +36,5 @@
     --font-inria: Inria,"sans-serif";
     --font-irish: Irish,"sans-serif";
     --font-grot: Grot,"sans-serif";
+    --font-gugi: Gugi,"sans-serif";
 }
