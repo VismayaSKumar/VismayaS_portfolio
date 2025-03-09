@@ -44,7 +44,7 @@ function Home() {
       </button>
       <div id="about" className="min-h-screen w-full"><About/></div>
       <div id="skills" className="min-h-screen w-full pt-60 sm:pt-68 md:pt-0 "><Skills/></div>
-      <div id="projects" className=" w-full"><Projects/></div>
+      <div id="projects" className="min-h-screen w-full"><Projects/></div>
       <div id="contact" className="min-h-screen w-full"><Contact/></div>
 
     </div>
