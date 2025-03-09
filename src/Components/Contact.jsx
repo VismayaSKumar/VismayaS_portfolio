@@ -17,7 +17,7 @@ function Contact() {
           Send
         </button>
       </div>
-      <div className='absolute bottom-5 right-10 flex flex-row gap-4'>
+      <div className='absolute bottom-5 right-28 flex flex-row gap-4'>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vismaya-s-33036b27b/"><img className='md:h-18' src={linkedIn} alt="" /></a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/VismayaSKumar"><img className='md:h-18' src={github} alt="" /></a>
       </div>

@@ -38,3 +38,7 @@
     --font-grot: Grot,"sans-serif";
     --font-gugi: Gugi,"sans-serif";
 }
+html, body {
+    overflow-x: hidden;
+  }
+  
