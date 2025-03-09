@@ -23,8 +23,8 @@ function Contact() {
     <div className='min-h-screen bg-cover bg-no-repeat bg-[url("/contactBgMobile.png")] md:bg-[url("/contactBgDesktop.png")] flex flex-col justify-center items-center font-gugi text-xl relative '>
     <form onSubmit={sendEmail} className='h-100 w-74 md:w-1/2 p-5 bg-[#D2E855] rounded-4xl flex flex-col gap-6 relative'>
         <div> 
-          <label htmlFor="user_email">Your Email</label>
-          <input type="email" className='bg-[#F3EFEF] w-full h-10 rounded-4xl font-grot p-3' id="user_email" name="user_email" 
+          <label htmlFor="email">Your Email</label>
+          <input type="email" className='bg-[#F3EFEF] w-full h-10 rounded-4xl font-grot p-3' id="from_name" name="from_name" 
             required />
         </div>
         <div>
