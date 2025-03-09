@@ -28,7 +28,7 @@ function LandingPage() {
               <input w-full
               type="text" 
               className="bg-[#FCF7F1] text-gray-500 text-lg rounded-2xl px-6 py-2 border border-gray-400 focus:outline-none w-full pr-14 " 
-              value="vismayaskumar10@gmail.com" readOnly/>
+              value="vismayaskumar" readOnly/>
             </div>
               
              <div className="relative w-full">
