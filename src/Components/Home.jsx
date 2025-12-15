@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import upArrow from "../assets/upwardArrow.svg";
 
 
+
 function Home() {
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
@@ -15,14 +16,14 @@ function Home() {
 
   return (
     
-    <div className="min-h-screen w-full bg-[#336757] relative">
+    <div className="min-h-screen w-full bg-[#336757] ">
 
       <div id="home" className="min-h-screen md:h-screen w-full flex items-center justify-center">
         <div className="w-full h-full bg-no-repeat bg-cover bg-center"style={{ backgroundImage: `url(${homebg})` }} >
 
           <div className="flex flex-col md:flex-row justify-between md:ml-28">
             <div className="w-full md:w-1/2 flex md:justify-center flex-col gap-7 md:gap-4 md:items-start mt-10 md:mt-0 hover:cursor-default">
-              <div className=" font-abril text-8xl md:text-9xl md-m-0 mx-5 ">hello!</div>
+              <div className=" font-abril text-8xl md:text-9xl md:mt-15 mx-5 ">hello!</div>
               
               <div className="text-3xl font-light md:font-normal font-grot flex flex-col justify-center items-end md:items-start md-m-0 mx-5 ">
                 <span>I'm Vismaya.</span> 
@@ -36,7 +37,6 @@ function Home() {
               <div className="absolute text-3xl bg-[#9E8CBE] p-2 top-90 w-[250px] text-center rounded-[20px] font-inria hover:scale-90 hover:text-zinc-800 hover:cursor-pointer duration-500 text-zinc-100" onClick={() => scrollToSection("contact")}> Contact</div>
             </div>
           </div>
-          
         </div>
       </div>
       <button onClick={()=>scrollToSection("home")} className="z-99 fixed right-6 bottom-6 p-4 md:p-6 bg-white rounded-full hover:bg-zinc-500 transition duration-300 hover:cursor-pointer shadow-md">
@@ -45,8 +45,8 @@ function Home() {
       <div id="about" className="min-h-screen w-full"><About/></div>
       <div id="skills" className="min-h-screen w-full pt-60 sm:pt-68 md:pt-0 "><Skills/></div>
       <div id="projects" className=" w-full"><Projects/></div>
-      <div id="contact" className="min-h-screen w-full"><Contact/></div>
-
+      <div id="contact" className=" w-full"><Contact/></div>
+            
     </div>
   );
 }

@@ -21,11 +21,11 @@ function Skills() {
         <img className='absolute top-[-55px] md:left-44 md:top-[-50px] md:h-40 ' src={skillSticker} alt="" /> 
         <div className='font-caesar absolute top-[-40px] md:top-[-34px] left-15 md:left-64 md:text-3xl '>SKILLS</div>
       </div>
-      <div className='p-10 pt-20 flex items-center gap-10 md:gap-24 overflow-x-auto whitespace-nowrap py-5 scrollbar-hide'
+      <div className='p-10 pt-20 flex items-center gap-10 lg:gap-15 overflow-x-auto whitespace-nowrap py-5 scrollbar-hide'
       style={{scrollbarWidth:"none", msOverflowStyle: "none",}}>
         {
           skills.map((card,index)=>(
-            <img key={index} className='h-50 md:h-60 w-auto hover:scale-110 transition duration-500' src={card} alt="" />
+            <img key={index} className='h-50 lg:h-54 w-auto hover:scale-110 transition duration-500' src={card} alt="" />
           ))
         }
       </div>
