@@ -2,12 +2,12 @@ import React from 'react'
 
 function ProjectCard({project, onBack}) {
   return (
-    <div className='px-10 lg:px-20 lg:mb-30 w-full flex'>
-        <div className='w-full bg-[#FDEA8A] rounded-xl flex p-10 '> 
-            <div className='w-1/3'>
+    <div className='px-9 lg:px-20 lg:mb-30 w-full flex'>
+        <div className='w-full h-1/2 bg-[#FDEA8A] rounded-xl flex flex-col lg:flex-row p-5 lg:p-10 '> 
+            <div className='lg:w-1/3 '>
                 <img className='cover' src={project.image} alt="" />
             </div>
-            <div className=' w-2/3 flex flex-col gap-3  pl-15'>
+            <div className=' lg:w-2/3 flex flex-col gap-3 pt-5 lg:pt-0 lg:pl-15'>
                 <h1 className='text-5xl font-caesar'>{project.title}</h1>
                 <p className='font-grot text-2xl font-medium '>{project.description} | <i className='text-[18px] font-normal '>{project.techStack}</i></p>
                 <p className='font-grot text-xl '> {project.detail}               </p>

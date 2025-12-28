@@ -44,7 +44,7 @@ function Contact() {
 
   return (
     <div className='min-h-screen bg-cover bg-no-repeat bg-[url("/contactBgMobile.png")] md:bg-[url("/contactBgDesktop.png")] flex flex-col justify-center items-center font-gugi text-xl relative '>
-      <div className='bg-[#D2E855] px-10 pt-14 pb-5 rounded-4xl w-1/2 flex flex-col'>
+      <div className='bg-[#D2E855] px-5 lg:px-10 pt-14 pb-5 rounded-4xl lg:w-1/2 flex flex-col'>
           <h1 className='text-4xl pb-4'>Get in touch!</h1>
           <form onSubmit={sendEmail} className=' bg-[#D2E855] rounded-4xl flex gap-2 flex-col'>
             <div> 
@@ -67,10 +67,10 @@ function Contact() {
         <div className='absolute bottom-7 w-full flex justify-end items-center pr-28'>
           <div className='flex justify-end flex-row gap-4'>
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vismaya-s-33036b27b/">
-              <img className='md:h-13 hover:scale-115 duration-350' src={linkedIn} alt="" />
+              <img className='h-11 md:h-13 hover:scale-115 duration-350' src={linkedIn} alt="" />
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/VismayaSKumar">
-              <img className='md:h-13 hover:scale-115 duration-350' src={github} alt="" />
+              <img className='h-11 md:h-13 hover:scale-115 duration-350' src={github} alt="" />
             </a>
            </div>
         </div>

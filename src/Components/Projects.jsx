@@ -39,16 +39,17 @@ function Projects() {
   }
 
   return (
-    <div className='px-10 lg:px-20 lg:mb-30 '>
+    <div className=' px-10 lg:px-20 lg:mb-30 '>
       <img src={projectSticker} className='h-28 md:h-40 m-0  lg:mt-[-10%] ' alt="" />
-      <div className='flex flex-row gap-15 items-center'>
+      <div className='flex flex-col lg:flex-row gap-15 items-center'>
         {projectInfo.map((project, index) => (
-          <div onClick={()=> goToCard(project)} key={index} className='relative flex hover:scale-105 duration-250 cursor-pointer'>
+          <div key={index} className='relative h-auto flex '>
               <img src={projectCard} alt="" />
-            <div className='absolute mx-8 my-16 flex flex-col'>
-              <h1 className='text-4xl font-caesar'>{project.title}</h1>
+            <div className='absolute mx-4 my-8 lg:mx-8 lg:my-16 flex flex-col'>
+              <h1 className='text-2xl lg:text-4xl font-caesar'>{project.title}</h1>
               <p className='font-grot text-xl'>{project.description}</p>
             </div>
+            <button onClick={()=> goToCard(project)} className='absolute bottom-10 right-12 flex justify-end  text-blue-500 underline hover:text-blue-700 font-grot cursor-pointer'><p>view more</p></button>
           </div>
         ))}
       </div>

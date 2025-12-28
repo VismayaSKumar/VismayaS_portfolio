@@ -42,8 +42,8 @@ function Home() {
       <button onClick={()=>scrollToSection("home")} className="z-99 fixed right-6 bottom-6 p-4 md:p-6 bg-white rounded-full hover:bg-zinc-500 transition duration-300 hover:cursor-pointer shadow-md">
         <img src={upArrow} alt="" className="h-7 w-7" />
       </button>
-      <div id="about" className="min-h-screen w-full"><About/></div>
-      <div id="skills" className="min-h-screen w-full pt-60 sm:pt-68 md:pt-0 "><Skills/></div>
+      <div id="about" className=" w-full"><About/></div>
+      <div id="skills" className=" w-full pt-60 md:pt-0 "><Skills/></div>
       <div id="projects" className=" w-full"><Projects/></div>
       <div id="contact" className=" w-full"><Contact/></div>
             
